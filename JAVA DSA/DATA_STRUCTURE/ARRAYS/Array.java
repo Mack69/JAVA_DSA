@@ -10,9 +10,6 @@ class Array{
             arr[i]=mg.nextInt();
         }
         System.out.println("Output");
-        for(int i=0;i<n;i++){
-            System.out.print("[" + arr[i] + "]");
-        }
-
+        System.out.println(Arrays.toString(arr));
     }
 }
