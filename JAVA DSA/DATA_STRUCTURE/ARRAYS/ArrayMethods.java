@@ -27,15 +27,15 @@ public class ArrayMethods {
 
     public static void Compare()
     {
-        int arr1[]={12,24,36,48,60};
-        int arr2[]={8,16,24,32,40};
-        System.out.println(Arrays.compare(arr1, arr2));
+        String str1[]={"mayukh","ghosh"};
+        String str2[]={"manash","ghosh"};
+        System.out.println(Arrays.compare(str1, str2));
     }
 
     public static void CopyArray()
     {
         int arr[]={12,24,36,48,60};
-        Arrays.copyOf(arr, 7);
+        Arrays.copyOf(arr, 17);
         System.out.println(Arrays.toString(arr));
 
         int arrDup[]=Arrays.copyOfRange(arr,2,5);
