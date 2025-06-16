@@ -6,7 +6,7 @@ public class ArrayMethods {
 
     public static void Fill()
     {
-        int arr[]=new int[5];
+        int arr[]=new int[15];
         System.out.println("Enter Array Element to fill :");
         int n=mg.nextInt();
         Arrays.fill(arr,n);
