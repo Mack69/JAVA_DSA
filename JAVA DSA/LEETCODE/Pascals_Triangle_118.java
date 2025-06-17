@@ -26,10 +26,10 @@ public class Pascals_Triangle_118 {
     public static void main(String[] args) {
         Scanner mg=new Scanner(System.in);
         Pascals_Triangle_118 ob = new Pascals_Triangle_118();
+        System.out.println("Enter the Number of Rows :");
         int n= mg.nextInt();
-        List<List<Integer>> list = new ArrayList<>();
-        list=ob.generate(n);
-        System.err.println(list);
+        List<List<Integer>> list = ob.generate(n);
+        System.out.println(list);
         mg.close();
     }
 }
