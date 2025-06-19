@@ -3,7 +3,7 @@ public class Pascals_Triangle_118 {
 
      public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> list = new ArrayList<>();
-        int k=0;
+        int k;
         for (int i = 0; i < numRows; i++) 
         {
             List<Integer> num = new ArrayList<>();

@@ -4,7 +4,7 @@ class Pascals_Triangle_II_119 {
     {
         List<Integer> curRow = new ArrayList<>();
         List<List<Integer>> row = new ArrayList<>();
-        int i, k = 0;
+        int i, k;
 
         for (i = 0; i <= rowIndex; i++) 
         {
