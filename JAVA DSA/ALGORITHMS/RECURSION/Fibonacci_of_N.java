@@ -19,10 +19,9 @@ public class Fibonacci_of_N
             return;
         
         int c=a+b;                          // Add the value of a nd b for the next term
-        System.out.print(c +" ");                
-        a=b; b=c;                           // swap the value a->b and b=>c
-        Fibonacci(n-1,a,b);                 // call function to send (n-1) to iterate this till n=1 and passes the modified a and b
-    }
+        System.out.print(c +" ");                                          
+        Fibonacci(n-1,b,c);               // swap the value a->b and b=>c 
+    }                                     // call function to send (n-1) to iterate this till n=1 and passes the modified a and b
 
 }
 
