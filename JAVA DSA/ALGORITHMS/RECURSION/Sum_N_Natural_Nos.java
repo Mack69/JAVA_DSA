@@ -12,6 +12,8 @@ public class Sum_N_Natural_Nos
         mg.close();
     }
 
+    // N to 1 Approach -> N + (N-1) + (N-2) ... + (1)
+    
     public static int Sum(int n, int sum)   // RECURSION FUNCTION TO FIND SUM
     {
         if(n>0)
