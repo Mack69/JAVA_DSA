@@ -18,6 +18,8 @@ class BUBBLE_SORT
             System.out.print(a[i]+"  ");
         System.out.println();
         System.out.println("SORTED LIST");
+        
+        // Main Algorithm
         for(i=0;i<n-1;i++)
         {
             for(j=0;j<n-i-1;j++)
