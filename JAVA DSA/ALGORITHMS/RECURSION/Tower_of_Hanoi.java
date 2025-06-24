@@ -7,7 +7,7 @@ public class Tower_of_Hanoi
         System.out.println("Enter the No. of Disk :");
         int n=mg.nextInt();
         System.out.println("Transfers of Disks : ");
-        towerOfHanoi(n,"S","H","D");
+        towerOfHanoi(n,"SOURCE","HELPER","DESTINATION");
         mg.close();
     }
 

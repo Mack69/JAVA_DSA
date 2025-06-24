@@ -7,20 +7,20 @@ public class First_Last_Occurence_of_Char
     
        public static void Occurence(String str , char ch, int i)
        {
-            if(i==str.length())
+            if(i==str.length())           // BASE CASE    
             {
-                System.out.println("First occurence = "+ (first+1));
-                System.out.println("Last occurence = "+ (last+1));
+                System.out.println("First occurence = "+ first);    
+                System.out.println("Last occurence = "+ last);
                 return;
             }
-            if(str.charAt(i)==ch)
+            if(str.charAt(i)==ch)         // IF THE ELEMENT IS FOUND 
             {
-                if(first==-1)
+                if(first==-1)             // THEN CHECKS WHETHER IT IS 1ST TIME OR NOT, IF 1ST TIME THEN CHANGE THE FIRST VALUE TO INDEX VALUE
                     first=i;
                 else
-                    last=i;
+                    last=i;               // OTHERWISE UPDATE THE LAST VALUE AS THIS INDEX 
             }
-            Occurence(str, ch, i+1);
+            Occurence(str, ch, i+1);      // INCREMENT THE INDEX VALUE FOR CHECKING NEXT CHAR
        }
 
        public static void main(String[] args) 
@@ -45,6 +45,6 @@ baabcabab
 Enter the Charecter
 a
 
-First occurence = 2
-Last occurence = 8
+First occurence = 1 (INDEX POSITION)
+Last occurence = 7
  */
